@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="BOX">
+        <header>Temperature <br> Converter</header>
+        <form>
+            <div class="radio-container">
+                <input id="default-radio-1" type="radio" name="default-radio" class="radio-input C2F">
+                <label for="default-radio-1" class="radio-label">Celsius to Fahrenheit</label>
+            </div>
+            
+            <div class="radio-container">
+                <input id="default-radio-2" type="radio" name="default-radio" class="radio-input F2C" checked>
+                <label for="default-radio-2" class="radio-label">Fahrenheit to Celsius</label>
+            </div>
+
+        </form>
+
+        <footer>
+            <input type="text" placeholder="Celsius" class="Celsius">
+            <img src="./arrows-exchange.svg" alt="">
+            <input type="text" placeholder="Fahrenheit" class="Fahrenheit">
+        </footer>
+
+        <summary>
+            <button>Convert</button>
+        </summary>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
